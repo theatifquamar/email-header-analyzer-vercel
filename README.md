@@ -1,5 +1,6 @@
 # Email Header Forensics
 
+[![Test](https://github.com/theatifquamar/email-header-analyzer-vercel/actions/workflows/test.yml/badge.svg)](https://github.com/theatifquamar/email-header-analyzer-vercel/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Deployed on Vercel](https://img.shields.io/badge/deployed-vercel-black?logo=vercel)](https://vercel.com)
 
