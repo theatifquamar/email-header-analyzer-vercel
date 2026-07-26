@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { T } from "./theme.js";
-import { Hero } from "./components/Hero.jsx";
 import { NavBar } from "./components/NavBar.jsx";
 import { CreditsBanner } from "./components/CreditsBanner.jsx";
 import { AnalyzerPage } from "./pages/Analyzer.jsx";
@@ -79,7 +78,6 @@ export default function App() {
         }
       `}</style>
 
-      <Hero />
       <NavBar page={page} setPage={setPage} />
       <CreditsBanner />
 

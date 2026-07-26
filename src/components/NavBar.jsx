@@ -22,22 +22,25 @@ export function NavBar({ page, setPage }) {
         position: "sticky",
         top: 0,
         zIndex: 20,
-        background: "rgba(1,1,19,0.92)",
+        background: "rgba(10,14,26,0.92)",
         backdropFilter: "blur(10px)",
         WebkitBackdropFilter: "blur(10px)",
       }}
     >
       <div
         onClick={() => setPage("analyzer")}
-        style={{ display: "flex", alignItems: "center", cursor: "pointer" }}
+        style={{ display: "flex", alignItems: "center", gap: 10, cursor: "pointer" }}
       >
         <img
-          src="/nav-icon.png"
-          alt="Email Header Forensics"
-          width={40}
-          height={40}
-          style={{ display: "block", filter: `drop-shadow(0 0 8px ${T.accent}33)` }}
+          src="/favicon.svg"
+          alt="Email Header Forensics logo"
+          width={34}
+          height={37}
+          style={{ display: "block", filter: `drop-shadow(0 0 10px ${T.accent}33)` }}
         />
+        <div style={{ fontFamily: T.disp, fontWeight: 700, fontSize: 16.5, letterSpacing: 0.2, color: T.ink }}>
+          EMAIL HEADER FORENSICS
+        </div>
       </div>
 
       <nav style={{ display: "flex", gap: 4, flexWrap: "wrap" }}>

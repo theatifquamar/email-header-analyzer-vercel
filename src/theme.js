@@ -9,8 +9,8 @@
    ============================================================ */
 export const T = {
   // Surface palette — deep navy/slate, not pure black, for a premium SaaS feel
-  bg: "#010113",
-  bgGrad: "linear-gradient(180deg, #010113 0%, #030320 40%, #010113 100%)",
+  bg: "#0A0E1A",
+  bgGrad: "linear-gradient(180deg, #0A0E1A 0%, #0C1120 40%, #0A0E1A 100%)",
   panel: "#111827",
   panel2: "#161F33",
   panelHover: "#1A2440",
